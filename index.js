@@ -12,7 +12,7 @@ const upload = multer({ dest: 'uploads/' }); // 업로드된 파일을 'uploads/
 
 const PORT = 3000;
 const MODEL_NAME = "gemini-1.0-pro-vision-latest";
-const API_KEY = "AIzaSyDCr6GmP-AbWT4_S8RdubQ4KDQhadrfpXY"; // 실제 API 키로 변경해야 합니다.
+const API_KEY = ""; // 실제 API 키로 변경해야 합니다.
 
 // 클라이언트 파일을 위한 정적 디렉터리 설정
 app.use(express.static('public'));
